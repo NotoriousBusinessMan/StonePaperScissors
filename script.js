@@ -29,10 +29,10 @@ for (const element of options) {
             const object = element.dataset.name
             clicked_choice = object
             
-            img_player.src = `/images/${object}.png`
+            img_player.src = `images/${object}.png`
 
             var computer_choice = choices[Math.floor(Math.random() * choices.length)];
-            img_computer.src = `/images/${computer_choice}.png`
+            img_computer.src = `images/${computer_choice}.png`
             
 
             if(clicked_choice && computer_choice){
