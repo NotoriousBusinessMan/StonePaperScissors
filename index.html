@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game 1</title>
+</head>
+<body>
+    <section id="hero" class="max-width">
+        <section class="wrapper">
+            <div class="top">
+                <h1>Rock-Paper-Scrissors</h1>
+            </div>
+
+            <div class="bottom">
+                <div class="top-two">
+                    <h3>Choose Any :</h3>
+                </div>
+                <div class="bottom-two">
+                    <a href="" data-name="stone" id="rock" class="options"><img src="images/stone.png" alt="rock"></a>
+                    <a href="" data-name="paper" id="paper" class="options"><img src="images/paper.png" alt="paper"></a>
+                    <a href="" data-name="scissors" id="scissors" class="options"><img src="images/scissors.png" alt="scissors"></a>
+                    
+                </div>
+            </div>
+
+            <div class="challenge">
+                <div class="left">
+                    <h4>You CHOSE :</h4>
+                    <div id="img-container-left"></div>
+                </div>
+
+                <div class="middle">
+                    <div class="score">
+                        <h1 id="player_score">0</h1>: <h1 id="computer_score">0</h1>
+                    </div>
+                    <div>
+                        <h4 id="text-board"></h4>
+                    </div>
+                    <div class="replay_button">
+                        <button id="restart-button">Restart</button>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h4>BOT CHOSE :</h4>
+                    <div id="img-container-right"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="message">
+            <a href="https://www.instagram.com/mr.sabith._.a5/" target="_blank">
+                <h2>Follow me on Social Media</h2>
+                <h3> <img src="images/instagram.png" alt="instagram"> Mr.$abith._.a5 (click me)</h3>
+            </a>
+        </section>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
